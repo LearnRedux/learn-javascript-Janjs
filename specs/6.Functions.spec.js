@@ -3,11 +3,11 @@ describe("Functions", () => {
   describe("shorthand notation", () => {
 
     it("() => {} is the shortest function", () => {
-      expect(solveme).toEqual(jasmine.any(Function));
+      expect(() => {}).toEqual(jasmine.any(Function));
     });
 
     it("(a,b) => {} accepts arguments", () => {
-      expect(solveme).toEqual(jasmine.any(Function));
+      expect((a,b) => {}).toEqual(jasmine.any(Function));
     });
 
     it("a => {} is a shorthand for one argument", () => {
