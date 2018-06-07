@@ -12,7 +12,7 @@ describe('Async/Await', () => {
     // wait is 100 so... 
     // if it waits it should be at least 100
     // make your bigger guess
-    expect(solveme).toBeLessThanOrEqual(stopTime - startTime);
+    expect(1000).toBeLessThanOrEqual(stopTime - startTime);
   });
 
   it('javascript can emulate asynchronous code with async/await keywords', 
